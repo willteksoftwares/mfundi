@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mFundy</string>
+    <string name="title_activity_plumbers_maps">Map</string>
+    <string name="title_activity_homeowners_maps">Map</string>
+</resources>

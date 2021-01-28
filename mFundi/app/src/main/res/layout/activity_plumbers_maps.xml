@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PlumbersMapsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plumberLogout"
+        android:text="Logout"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plumberSettingsBtn"
+        android:text="Settings"
+        android:layout_gravity="right"
+        android:textAllCaps="false"/>
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeownerInfo"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/homeownerProfilePic"
+            android:src="@drawable/profile_image"
+            android:padding="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="40dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeownerNames"
+                android:paddingBottom="10dp"
+                android:text="homeowner name"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeownerPhoneNumbers"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="+254 7..."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeownerDestination"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="work destination"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+

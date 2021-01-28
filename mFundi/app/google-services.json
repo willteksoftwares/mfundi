@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "177855761686",
+    "firebase_url": "https://mfundy-23eb2.firebaseio.com",
+    "project_id": "mfundy-23eb2",
+    "storage_bucket": "mfundy-23eb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177855761686:android:366367f4f72429ed609437",
+        "android_client_info": {
+          "package_name": "com.willteksolutions.mfundy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177855761686-39l9eao1i9i2v76ppea5q1eqeeh4nu8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.willteksolutions.mfundy",
+            "certificate_hash": "bf83ab03e4ccaa4bd8ccbf8b91e17e1301931044"
+          }
+        },
+        {
+          "client_id": "177855761686-auae2aff7k4o7kp55ade61133i3gjjek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbBS59Nz5vzYps1nBL8ycq6cQi4jKtuUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177855761686-auae2aff7k4o7kp55ade61133i3gjjek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
